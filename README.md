@@ -13,7 +13,7 @@ class Profile extends Me {
     return {
       skill: [
         'JavaScript', 'TypeScript', 'HTML', 'CSS3'
-        'React', 'Redux', 'Mobx', 'Styled-Compoment',
+        'React', 'Redux', 'Mobx', 'Material-UI', 'Styled-Compoment',
         'Vue.js', 'Vuex', 'Vuetify', 'JQuery'
       ],
       tool: [
