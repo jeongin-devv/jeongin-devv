@@ -9,14 +9,14 @@ class Profile extends Me {
     this.lies : any = false ;
   }
   
-  getUsedSkillAndTool(): { skill: string[], tool: string[] } {
+  getUsedSkillAndTool(): { skills: skill[], tools: tool[] } {
     return {
-      skill: [
+      skills: [
         'JavaScript', 'TypeScript', 'HTML', 'CSS3'
         'React', 'Redux', 'Mobx', 'Material-UI', 'Styled-Compoment',
         'Vue.js', 'Vuex', 'Vuetify', 'JQuery'
       ],
-      tool: [
+      tools: [
         'vsCode', 'Brackets', 'Eclipse', 'STS',
         'Jira', 'Confluence', 'Figma', 'Zeplin',
         'GitHub', 'GitLab', 'SVN', 'Postman', 'DBeaver'
@@ -40,7 +40,7 @@ class Profile extends Me {
     ];
   },
   
-  getEducation(): Array<String> {
+  getEducations(): Array<Education> {
     return [
       'Hongik University Department of Industrial Engineering',
       'Udemy Frontend RoadMap using React',
