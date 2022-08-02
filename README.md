@@ -43,7 +43,8 @@ class Profile extends Me {
   getEducations(): Array<Education> {
     return [
       'Hongik University Department of Industrial Engineering',
-      'Udemy Frontend RoadMap using React',
+      'Udemy Frontend RoadMap using React & TypeScript',
+      'Nomad Coders Frontend RoadMap using React & TypeScript',
       'Inflearn Frontend RoadMap using Vue.js',
       'HTA Java developer A course Using egovFrame, Vue.js' 
     ];
