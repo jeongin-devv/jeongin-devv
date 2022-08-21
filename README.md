@@ -12,7 +12,7 @@ class Profile extends Me {
   getUsedSkillAndTool(): { skills: skill[], tools: tool[] } {
     return {
       skills: [
-        'JavaScript(ES6+)', 'TypeScript', 'HTML', 'CSS3'
+        'JavaScript(ES6+)', 'TypeScript', 'HTML', 'CSS3',
         'React', 'Redux', 'Mobx', 'Material-UI', 'Styled-Compoment',
         'Vue.js', 'Vuex', 'Vuetify', 'JQuery'
       ],
