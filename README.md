@@ -57,4 +57,6 @@ class Profile extends Me {
 
 ```
 
-* Notion : <a href="https://devjeongin.notion.site/Resume-8fd46c435272438d906e8b2957c4b551" target="_blank">Click the Link</a>
+* Notion (Eng) : <a href="https://devjeongin.notion.site/Resume-8fd46c435272438d906e8b2957c4b551" target="_blank">Click the Link</a>
+* Web Resume (Kor) : <a href="https://jeongin-devv.github.io/Resume" target="_blank">Click the Link</a>
+
