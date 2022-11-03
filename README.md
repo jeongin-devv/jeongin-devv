@@ -17,7 +17,7 @@ class Profile extends Me {
         'Vue.js', 'Vuex', 'Vuetify', 'JQuery'
       ],
       tools: [
-        'vsCode', 'Brackets', 'Eclipse', 'STS',
+        'vsCode', 'Brackets', 'LambdaTest', 'Email on Acid',
         'Jira', 'Confluence', 'Figma', 'Zeplin',
         'GitHub', 'GitLab', 'SVN', 'Postman', 'DBeaver'
       ]
