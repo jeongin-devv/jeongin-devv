@@ -1,8 +1,8 @@
 ```JavaScript
 class Profile extends Me {
 
-  name_kor: 'Jeongin.Oh' ;
-  name_eng: 'Zayden.Oh' ;
+  name_kor = 'Jeongin.Oh' ;
+  name_eng = 'Zayden.Oh' ;
   
   constructor(){
     this.everything : any = true ;
