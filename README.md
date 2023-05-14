@@ -30,7 +30,7 @@ class Profile extends Me {
         status: 'Current',
         company: 'Kinemaster',
         department: 'Service Platform Team 1',
-        position: 'Developer'
+        position: 'Frontend Developer'
       },
       {
         status: 'Previous',
