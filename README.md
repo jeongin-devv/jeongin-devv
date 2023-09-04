@@ -12,7 +12,7 @@ class Profile extends Me {
   getUsedSkillAndTool(): { skills: skill[], tools: tool[] } {
     return {
       skills: [
-        'JavaScript(ES6+)', 'TypeScript', 'HTML', 'CSS3',
+        'JavaScript(ES6+)', 'TypeScript', 'HTML', 'CSS3', 'Storybook',
         'Next.js', 'React', 'Mobx', 'Material-UI', 'Styled-Compoment',
         'Vue.js', 'Vuex', 'Vuetify', 'JQuery'
       ],
@@ -28,6 +28,12 @@ class Profile extends Me {
     return [
       {
         status: 'Current',
+        company: 'Hongik University',
+        department: 'Information and Computing Center',
+        position: 'Developer'
+      },
+      {
+        status: 'Previous',
         company: 'Kinemaster',
         department: 'Service Platform Team 1',
         position: 'Frontend Developer'
@@ -51,7 +57,7 @@ class Profile extends Me {
   },
   
   getAboutMe(): string {
-    return 'Please refer to Notion at the Bottom';
+    return 'Please refer to Resume at the Bottom';
   }
 }
 
